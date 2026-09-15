@@ -1,0 +1,55 @@
+{
+  "app": {
+    "title": "时间戳工具",
+    "subtitle": "时间戳转换与时区下的起止时间差值计算。"
+  },
+  "common": {
+    "timezone": "时区",
+    "offset": "UTC 偏移",
+    "copy": "复制",
+    "copied": "已复制",
+    "searchTimezone": "搜索时区…"
+  },
+  "converter": {
+    "title": "时间戳转换",
+    "modeTimestamp": "从时间戳",
+    "modeDatetime": "从日期时间",
+    "timestamp": "Unix 时间戳",
+    "unit": "单位",
+    "unitAuto": "自动",
+    "unitSeconds": "秒",
+    "unitMilliseconds": "毫秒",
+    "date": "日期",
+    "time": "时间",
+    "outputs": "结果",
+    "utcIso": "UTC（ISO 8601）",
+    "localInZone": "所选时区",
+    "seconds": "秒",
+    "milliseconds": "毫秒"
+  },
+  "duration": {
+    "title": "时间差计算",
+    "start": "起点",
+    "end": "终点",
+    "useNow": "使用当前时间",
+    "customEnd": "自定义终点",
+    "result": "差值",
+    "totalMs": "总毫秒",
+    "totalSeconds": "总秒数",
+    "negativeHint": "终点早于起点"
+  },
+  "error": {
+    "invalidLocalTime": "无效的本地时间（可能处于夏令时跳变间隙）。",
+    "invalidTimestamp": "无效的时间戳。"
+  },
+  "unit": {
+    "days": "天",
+    "hours": "时",
+    "minutes": "分",
+    "seconds": "秒"
+  },
+  "lang": {
+    "en": "English",
+    "zh": "中文"
+  }
+}

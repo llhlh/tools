@@ -1,0 +1,55 @@
+{
+  "app": {
+    "title": "Timestamp Tool",
+    "subtitle": "Convert timestamps and calculate durations across time zones."
+  },
+  "common": {
+    "timezone": "Time zone",
+    "offset": "UTC offset",
+    "copy": "Copy",
+    "copied": "Copied",
+    "searchTimezone": "Search time zones…"
+  },
+  "converter": {
+    "title": "Timestamp converter",
+    "modeTimestamp": "From timestamp",
+    "modeDatetime": "From date & time",
+    "timestamp": "Unix timestamp",
+    "unit": "Unit",
+    "unitAuto": "Auto",
+    "unitSeconds": "Seconds",
+    "unitMilliseconds": "Milliseconds",
+    "date": "Date",
+    "time": "Time",
+    "outputs": "Results",
+    "utcIso": "UTC (ISO 8601)",
+    "localInZone": "In selected zone",
+    "seconds": "Seconds",
+    "milliseconds": "Milliseconds"
+  },
+  "duration": {
+    "title": "Duration calculator",
+    "start": "Start",
+    "end": "End",
+    "useNow": "Use current time",
+    "customEnd": "Custom end time",
+    "result": "Difference",
+    "totalMs": "Total milliseconds",
+    "totalSeconds": "Total seconds",
+    "negativeHint": "End is before start"
+  },
+  "error": {
+    "invalidLocalTime": "Invalid local time (possible DST gap).",
+    "invalidTimestamp": "Invalid timestamp."
+  },
+  "unit": {
+    "days": "d",
+    "hours": "h",
+    "minutes": "m",
+    "seconds": "s"
+  },
+  "lang": {
+    "en": "English",
+    "zh": "中文"
+  }
+}
