@@ -34,3 +34,7 @@ Deploy the `dist/` folder to any static host (GitHub Pages, Cloudflare Pages, Ng
 ## Language
 
 Use the header toggle to switch between English and 中文. Preference is stored in `localStorage` under `time-tool-lang`.
+
+## Contact
+
+The page footer shows a public email link. Set your address in [`src/config/contact.ts`](src/config/contact.ts) (`CONTACT_EMAIL`) before deploying.

@@ -51,5 +51,9 @@
   "lang": {
     "en": "English",
     "zh": "中文"
+  },
+  "contact": {
+    "label": "Contact",
+    "hint": "Questions or feedback"
   }
 }
