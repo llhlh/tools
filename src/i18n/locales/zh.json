@@ -51,5 +51,9 @@
   "lang": {
     "en": "English",
     "zh": "中文"
+  },
+  "contact": {
+    "label": "联系方式",
+    "hint": "问题或建议欢迎来信"
   }
 }

@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
+import { CONTACT_EMAIL } from '../config/contact'
 import { LanguageToggle } from './LanguageToggle'
 import { TimezonePicker } from './TimezonePicker'
 
@@ -29,6 +30,17 @@ export function Layout({ zone, onZoneChange, children }: Props) {
         </div>
       </header>
       <main className="mx-auto max-w-4xl space-y-6 px-4 py-8">{children}</main>
+      <footer className="border-t border-slate-200/80 bg-white/60 py-6 dark:border-slate-800 dark:bg-slate-950/60">
+        <div className="mx-auto flex max-w-4xl flex-col items-start gap-1 px-4 text-sm text-slate-600 dark:text-slate-400 sm:flex-row sm:items-center sm:justify-between">
+          <span>{t('contact.hint')}</span>
+          <a
+            href={`mailto:${CONTACT_EMAIL}`}
+            className="font-medium text-indigo-600 underline-offset-2 hover:underline dark:text-indigo-400"
+          >
+            {t('contact.label')}: {CONTACT_EMAIL}
+          </a>
+        </div>
+      </footer>
     </div>
   )
 }
